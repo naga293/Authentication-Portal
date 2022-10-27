@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS userauthDb;
+CREATE DATABASE userauthDb;
+USE userauthDb;
+
+/* Registered users table */
+CREATE TABLE Users (
+	ID 		 BIGINT AUTO_INCREMENT PRIMARY KEY,
+	Name  VARCHAR(50) NOT NULL,
+	Email     VARCHAR(50) NOT NULL UNIQUE,
+	Password  VARCHAR(50) NOT NULL,
+	City      VARCHAR(50) NOT NULL
+gmail 		VARCHAR(50) NOT NULL
+    )
