@@ -5,4 +5,5 @@
 - Setup a MYSQl databse using the schema present in the db folder.
 - Provide `DB_USERNAME`, `DB_PASSWORD`, `DB_ADDRESS`, `DB_PORT`, `DB_NAME` as environment variables.
 - Setup your google oAuth client account and provide `CLIENT_ID` and `CLIENT_SECRET` as environment variables.
+- if you are running it locally add `PORT` as an environment variable.
 
